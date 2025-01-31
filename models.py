@@ -1,0 +1,31 @@
+from pydantic import BaseModel
+
+class Solardata(BaseModel):
+    template_id: str
+    customer_name: str
+    rep_name: str
+    dealer_name: str
+    state: str
+    state_10yr_increase_rate: str
+    cost_10_years_ago: str
+    monthly_energy_cost: str
+    projected_cost_5yrs: str
+    projected_cost_25yrs: str
+    solar_system_size_kw: str
+    panel_count: str
+    energy_offset_percentage: str
+    total_production_first_year_kwh: str
+    current_kwh_cost: str
+    average_future_kwh_cost: str
+    solar_kwh_cost: str
+    ev_solar_cost_per_year: str
+    shift_battery_capacity: str
+    shift_battery_price: str
+    backup_battery_capacity: str
+    backup_battery_price: str
+    loan_term: str
+    monthly_payment: str
+    current_ITC_percentage: str
+    total_system_cost: str
+    tax_credit_amount: str
+    annual_savings: str
